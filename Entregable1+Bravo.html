@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de Dados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Juego de Dados</h1>
+
+    <div id="formularioJugadores">
+        <h2>Ingresa los nombres de 3 jugadores:</h2>
+        <input type="text" id="jugador1" placeholder="Jugador 1">
+        <input type="text" id="jugador2" placeholder="Jugador 2">
+        <input type="text" id="jugador3" placeholder="Jugador 3">
+        <button id="guardarJugadores">Guardar Jugadores</button>
+    </div>
+
+    <div id="jugadoresCreados" class="jugadores-actuales"></div>
+
+    <div id="opcionesJugadores"></div>
+
+    <div id="seleccionJugador"></div>
+
+    <button id="botonJugar" disabled>Jugar</button>
+
+    <div id="resultado"></div>
+
+    <script src="dado.js"></script>
+</body>
+</html>

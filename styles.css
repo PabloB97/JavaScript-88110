@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: #F0F0F0;
+}
+
+h1, #resultado{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+h1, h2 {
+    color: #4A4A4A;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #A8D5BA;
+    background-color: #FFF3B0;
+}
+
+button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #37966F;
+    background-color: #FFD93D;
+    border: 1px solid #A8D5BA;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #A8D5BA;
+    color: #4A4A4A;
+}
+
+.boton-jugador {
+    margin: 5px;
+    background-color: #5BC0EB;
+    color: #F0F0F0;
+    border: none;
+    border-radius: 4px;
+}
+
+.boton-jugador:hover {
+    background-color: #37966F;
+}
+
+#jugadoresCreados {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #37966F;
+}
+
+
