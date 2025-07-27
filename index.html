@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Convertidor de Monedas</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Convertidor de Monedas</h1>
+
+    <input type="number" id="monto" placeholder="Ingrese monto" />
+
+    <select id="origen"></select>
+    <select id="destino"></select>
+
+    <button id="convertir">Convertir</button>
+
+    <div id="resultado"></div>
+
+    <h3>Historial de conversiones</h3>
+    <ul id="historial"></ul>
+
+    <button id="borrarHistorial">Borrar historial</button>
+
+    <h2>Tasas de cambio (referencia: USD)</h2>
+    <table id="tabla-tasas">
+      <thead>
+        <tr><th>Moneda</th><th>Tasa</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</body>
+</html>
